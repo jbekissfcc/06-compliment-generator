@@ -24,3 +24,46 @@
   - Rounded corners for a soft look
   - Image scales to fit container size
 */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1ccdfe;
+  width: 100%;
+  font-family: "Onest", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  color: #354664;
+  padding: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main {
+  max-width: 80%;
+  background-color: white;
+  border-radius: 5px;
+  text-align: center;
+  padding: 20px;
+}
+
+.main button {
+  background-color: #f95f62;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.main button:hover {
+  background-color: #e14c51;
+}
+
+.main p {
+  margin: 20px 0;
+  font-size: 16px;
+}
